@@ -83,3 +83,38 @@ p {
     height: 100px;
     background-color: gray;
 }
+
+.main-background{
+    width:100%;
+    height:800px;
+    background-image: url(/resources/장군님.jpg), url(/resources/구글.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    filter:brightness(80%);
+    padding: 1px;
+}
+
+.main-background a:hover{
+    color:rgb(174, 247, 247);
+}
+
+.main-title{
+    color:white;
+    font-size: 40px;
+    margin-top: 300px; 
+    /* margin-collapse 현상 -> 박스들의 테두리가 만나면 margin이 합쳐짐(내부, 외부 상관 x) */   
+    margin-left: 100px;
+}
+
+.main-content{
+    margin-left: 100px;
+    color: #434343;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(211, 211, 211);
+    padding:10px;
+    border-radius:5%;
+}
